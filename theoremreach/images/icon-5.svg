@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="99px" height="78px" viewBox="0 0 99 78" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>8D93FFB3-07C5-4C9B-AFF2-4D2571E48A05</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="0.251744186%" y1="49.9868852%" x2="100.52093%" y2="49.9868852%" id="linearGradient-1">
+            <stop stop-color="#00BEED" offset="0%"></stop>
+            <stop stop-color="#00DFED" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="38.0761394%" y1="90.9037459%" x2="66.1085331%" y2="-4.43375882%" id="linearGradient-2">
+            <stop stop-color="#FFC000" offset="0%"></stop>
+            <stop stop-color="#FFEB23" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="2.25233333%" y1="10.613%" x2="121.891%" y2="109.139333%" id="linearGradient-3">
+            <stop stop-color="#FF840C" offset="0%"></stop>
+            <stop stop-color="#FFEB23" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="homepage-desktop" transform="translate(-790.000000, -2294.000000)" fill-rule="nonzero">
+            <g id="5" transform="translate(790.000000, 2289.000000)">
+                <g id="icon-5" transform="translate(0.000000, 5.000000)">
+                    <path d="M15.75,45.5448276 C15.75,45.5448276 37.35,45.0965517 42.66,53.3448276 L56.16,53.3448276 C58.86,53.3448276 61.11,55.4965517 61.11,58.2758621 C61.11,60.9655172 58.95,63.2068966 56.16,63.2068966 L38.34,63.2068966 C38.34,63.1172414 15.75,63.2068966 15.75,45.5448276 Z" id="Shape" fill="#E1E8FF"></path>
+                    <path d="M13.95,66.8827586 C13.95,66.8827586 37.89,77.6413793 48.15,77.6413793 C59.22,77.6413793 74.25,67.062069 82.62,62.5793103 C84.96,61.3241379 85.86,58.4551724 84.78,56.1241379 C83.61,53.7034483 80.73,52.537931 78.3,53.6137931 C69.84,58.3655172 57.87,64.3724138 57.87,64.3724138 L15.75,45.5448276 L13.95,66.8827586 Z" id="Shape" fill="#E1E8FF"></path>
+                    <path d="M1.08,70.6482759 L14.76,70.6482759 C15.3,70.6482759 15.66,70.2896552 15.66,69.7517241 L15.66,44.2 C15.66,43.662069 15.3,43.3034483 14.76,43.3034483 L1.08,43.3034483 C0.54,43.3034483 0.18,43.662069 0.18,44.2 L0.18,69.7517241 C0.18,70.2 0.63,70.6482759 1.08,70.6482759 Z" id="Shape" fill="url(#linearGradient-1)"></path>
+                    <polygon id="Shape" fill="#FFFFFF" points="38.79 63.1172414 56.16 63.1172414 57.87 64.2827586 38.79 64.2827586"></polygon>
+                    <g id="Group" transform="translate(27.900000, 1.793103)" fill="#FF9827">
+                        <ellipse id="Oval" transform="translate(25.637634, 25.452682) rotate(-14.708858) translate(-25.637634, -25.452682) " cx="25.637634" cy="25.4526821" rx="20.5193952" ry="20.4407768"></ellipse>
+                        <rect id="Rectangle-path" transform="translate(28.578096, 24.742402) rotate(-14.708858) translate(-28.578096, -24.742402) " x="24.4832167" y="4.30162562" width="8.1897586" height="40.8815536"></rect>
+                    </g>
+                    <ellipse id="Oval" fill="url(#linearGradient-2)" cx="60.12" cy="25.5517241" rx="20.52" ry="20.4413793"></ellipse>
+                    <path d="M94.23,33.4413793 C95.31,35.5931034 96.93,37.2965517 99,38.5517241 C96.84,39.6275862 95.13,41.2413793 93.87,43.3034483 C92.79,41.1517241 91.17,39.4482759 89.1,38.1931034 C91.26,37.0275862 93.06,35.4137931 94.23,33.4413793 Z" id="Shape" fill="#E1E8FF"></path>
+                    <path d="M20.97,21.9655172 C21.96,23.8482759 23.58,25.3724138 25.38,26.3586207 C23.49,27.3448276 21.96,28.9586207 20.97,30.7517241 C19.98,28.8689655 18.36,27.3448276 16.56,26.3586207 C18.45,25.3724138 19.98,23.8482759 20.97,21.9655172 Z" id="Shape" fill="#E1E8FF"></path>
+                    <path d="M80.64,0.0896551724 C81.36,1.43448276 82.53,2.6 83.88,3.31724138 C82.53,4.03448276 81.36,5.2 80.64,6.54482759 C79.92,5.2 78.75,4.03448276 77.4,3.31724138 C78.84,2.51034483 79.92,1.43448276 80.64,0.0896551724 Z" id="Shape" fill="#E1E8FF"></path>
+                    <g id="Group" transform="translate(43.200000, 8.965517)">
+                        <ellipse id="Oval" fill="#FF9827" transform="translate(16.917039, 16.591120) rotate(-14.708858) translate(-16.917039, -16.591120) " cx="16.917039" cy="16.59112" rx="13.4996021" ry="13.4478795"></ellipse>
+                        <ellipse id="Oval" fill="url(#linearGradient-3)" cx="16.92" cy="16.5862069" rx="13.5" ry="13.4482759"></ellipse>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

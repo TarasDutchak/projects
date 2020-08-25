@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="101px" height="72px" viewBox="0 0 101 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>0DD581B7-F5D0-4685-8AC0-2A7EFEA44ABB</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="8.71538462%" y1="79.2031963%" x2="96.280027%" y2="-1.98386606%" id="linearGradient-1">
+            <stop stop-color="#9855FC" offset="0%"></stop>
+            <stop stop-color="#752EE5" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="homepage-desktop" transform="translate(-785.000000, -2510.000000)" fill-rule="nonzero">
+            <g id="6" transform="translate(785.000000, 2509.000000)">
+                <g id="icon-6" transform="translate(0.000000, 1.000000)">
+                    <ellipse id="Oval" fill="#E1E8FF" cx="50.3196429" cy="36.9" rx="29.9392857" ry="29.88"></ellipse>
+                    <path d="M4.86964286,56.16 C5.77142857,57.87 7.21428571,59.22 8.92767857,60.21 C7.21428571,61.11 5.86160714,62.55 4.86964286,64.26 C3.96785714,62.55 2.525,61.2 0.811607143,60.21 C2.525,59.22 3.87767857,57.87 4.86964286,56.16 Z" id="Shape" fill="#E1E8FF"></path>
+                    <path d="M80.6196429,12.06 L19.8392857,12.06 C18.0357143,12.06 16.8633929,12.87 16.8633929,14.67 L16.8633929,57.15 C16.8633929,58.95 17.9455357,60.66 19.8392857,60.66 L54.1071429,60.66 L67.0928571,71.19 L67.0928571,60.75 L80.6196429,60.75 C82.4232143,60.75 83.6857143,59.04 83.6857143,57.24 L83.6857143,14.76 C83.6857143,12.87 82.5133929,12.06 80.6196429,12.06 Z" id="Shape" fill="url(#linearGradient-1)"></path>
+                    <path d="M92.7035714,0 C94.4169643,3.51 97.1223214,6.39 100.458929,8.37 C96.9419643,10.08 94.05625,12.78 92.0723214,16.11 C90.3589286,12.6 87.6535714,9.72 84.3169643,7.74 C87.8339286,6.03 90.7196429,3.33 92.7035714,0 Z" id="Shape" fill="#E1E8FF"></path>
+                    <g id="Group" transform="translate(29.758929, 22.500000)" fill="#FFFFFF">
+                        <rect id="Rectangle-path" x="31.6526786" y="0.09" width="9.01785714" height="28.71"></rect>
+                        <rect id="Rectangle-path" x="15.6910714" y="9.63" width="9.01785714" height="19.17"></rect>
+                        <rect id="Rectangle-path" x="0.450892857" y="17.37" width="9.01785714" height="11.43"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
