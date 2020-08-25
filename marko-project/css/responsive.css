@@ -1,1323 +1,1791 @@
-@media(min-width:1550px) {
+@media(min-width:1601px) {
     .container {
-        max-width: 1410px;
+        max-width: 1440px;
+    }
+
+    .slider-for__slide {
+        min-height: calc(100vh - 150px);
     }
 }
 
-@media(max-width:1550.8px) {
-
-    header,
-    .header__menu li,
-    .header__menu {
-        height: 65px;
-    }
-
-    .main-screen {
-        height: calc(100vh - 65px);
-    }
-
-    .header__menu li:before {
-        height: 5px;
-    }
-
-    .header__menu li a {
+@media(max-width:1600.8px) {
+    body {
         font-size: 16px;
     }
 
-    .header__logo a img {
-        max-width: 110px;
+    .header__staticsect:hover {
+        height: 145px;
     }
 
-    .main-screen__title {
-        font-size: 70px;
-        line-height: 100px;
+    .header__phone a.min-phone,
+    .header__phone>div {
+        width: 185px;
     }
 
-    .main-screen__subtitle {
-        font-size: 18px;
-        line-height: 120%;
-        margin: 28px 0 0 0;
+    .header__staticsect:hover .header__phone>div {
+        height: 90px;
     }
 
-    .main-screen__scroll-animation {
-        width: 20px;
-        height: 100px;
+    .header__staticsect:hover .header__phone {
+        height: 97px;
     }
 
-    .main-screen__scroll-animation img {
-        width: 20px;
+    .header__phone>div {
+        height: 35px;
     }
 
-    .main-screen__scroll-animation span {
-        width: 3px;
-        height: 3px;
-    }
-
-    .main-screen__scroll-animation span:nth-child(2) {
-        top: 9px;
-    }
-
-    .main-screen__scroll-animation span:nth-child(3) {
-        bottom: 49px;
-    }
-
-    .main-screen__scroll-animation span:nth-child(4) {
-        bottom: 23px;
-    }
-
-    h2 {
-        font-size: 36px;
-        line-height: 54px;
-    }
-
-    .section,
-    .section.why-dattshape,
-    .section.testimonials,
-    footer {
-        padding: 60px 0 70px 0;
-    }
-
-    p.general-text {
-        font-size: 16px;
-    }
-
-    h4 {
-        font-size: 24px;
-        line-height: 32px;
-    }
-
-    .icon-box__title {
-        margin-bottom: 15px;
-        font-size: 18px;
-    }
-
-    .why-dattshape h4 {
-        margin-bottom: 50px;
-    }
-
-    .count-box {
-        width: 250px;
-        height: 250px;
-        border: 4px solid #A11D54;
-    }
-
-    .count-box__number {
-        font-size: 55px;
-        line-height: 70px;
-    }
-
-    .count-box__text {
-        font-size: 16px;
-    }
-
-    .count-box__number {
-        margin-top: 62px;
-    }
-
-    .section_pic.section_main-pic {
-        display: flex;
-        align-items: center;
-    }
-
-    .header__menu li {
-        margin-right: 32px;
-    }
-
-    .testslide-block__img {
-        width: 110px;
-        height: 110px;
-        border: 6px solid #fff;
-        margin: 0 auto -40px;
-    }
-
-    .testslide-block__textblock .name {
-        font-size: 18px;
-        line-height: 24px;
-    }
-
-    .testslide-block__textblock .description span {
-        font-size: 80px;
-        line-height: 84px;
+    .header__staticsect,
+    .header__logo a,
+    .header__info,
+    .header__address,
+    .header__phone {
         height: 50px;
     }
 
-    .testslide-block__textblock {
-        padding: 50px 25px 40px 25px;
+    .header__logo a {
+        max-width: 120px;
+        background-position: top -28px center;
+
     }
 
-    .footer__logo a img {
-        max-width: 140px;
+    .header__staticsect:hover .header__logo a {
+        background-position: center center;
+        height: 145px;
     }
 
-    .footer__logo a {
+    .header__phone a.min-phone {
+        padding-top: 5px;
+        padding-left: 20px;
+    }
+
+    .header__phone a.min-phone:first-child:after {
+        top: 13px;
+    }
+
+    .header__phone {
+        padding-top: 7px;
+    }
+
+    .header__staticsect:hover .ha.header__showhov {
+        margin-top: -10px;
         margin-bottom: 20px;
     }
 
-    .footer__nav ul li a,
-    .footer__adress ul li,
-    .footer__adress ul li a {
+    .hi.header__showhov {
+        margin-top: 35px;
+    }
+
+    .header__social {
+        width: 180px;
+    }
+
+    .header__social li a img {
+        height: 18px;
+    }
+
+    .header__fixsect,
+    .header__nav ul {
+        height: 55px;
+        border: none;
+    }
+
+    .slide-info {
+        width: 600px;
+        padding: 40px 80px;
+    }
+
+    .slide-info p {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+
+    .slide-info a {
+        height: 50px;
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+    .slide-info:before {
+        left: -60px;
+        top: 34%;
+        width: 120px;
+    }
+
+    .slider-for__slide {
+        height: auto;
+    }
+
+    .mainslider,
+    .slider-for__slide {
+        height: calc(100vh - 105px);
+        min-height: 615px;
+    }
+
+    .slider-nav__slide {
+        height: 130px;
+    }
+
+    .slider__scroll-to:before {
+        width: 1px;
+    }
+
+    .wrapper-slidenav .slick-arrow {
+        width: 60px;
+    }
+
+    .slider-nav {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .slide-info {
+        top: 50%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        margin-top: -65px;
+    }
+
+    .animate-line {
+        top: 29%;
+        width: 2px;
+    }
+
+    .pagingInfo-slider {
+        top: 29%;
+    }
+
+    .whiteblock-top,
+    .whiteblock-bott {
+        height: 200px;
+    }
+
+    .propositions-box {
+        height: 500px;
+    }
+
+    .sloderprop1 .slick-arrow,
+    .reviews__slider .slick-arrow,
+    .gener__slider .slick-arrow {
+        width: 60px;
+        height: 150px;
+    }
+
+    .proposition__mark {
+        margin-right: 5px;
+    }
+
+    .proposition__descr {
+        padding: 20px 25px 15px 25px;
+    }
+
+    .proposition__descr {
+        min-height: 135px;
+    }
+
+    .sloderprop1 .slick-arrow.slick-prev,
+    .reviews__slider .slick-arrow.slick-prev,
+    .gener__slider .slick-arrow.slick-prev {
+        left: -23px;
+    }
+
+    .sloderprop1 .slick-arrow.slick-next,
+    .reviews__slider .slick-arrow.slick-next,
+    .gener__slider .slick-arrow.slick-next {
+        right: -23px;
+    }
+
+    .violetbtn {
+        height: 50px;
+        max-width: 350px;
         font-size: 16px;
     }
 
-    .footer__nav ul li {
+    .violbox-text ul {
+        padding-left: 25px;
+    }
+
+    .violbox-text ul li:before {
+        left: -23px;
+    }
+
+    h3:before {
+        vertical-align: 12px;
+    }
+
+    .benefits_box .pic-sect {
+        height: 220px;
+    }
+
+    .benefits_box .text-sect {
+        padding: 0 15px;
+    }
+
+    .benefits_box .pic-sect>img:first-child {
+        max-width: 90px;
+        max-height: 90px;
+    }
+
+    .benefits_box .pic-sect .elip1,
+    .benefits_box .pic-sect .elip3,
+    .benefits_box .pic-sect .elip5,
+    .benefits_box .pic-sect .elip7 {
+        width: 100px;
+    }
+
+    .benefits_box .pic-sect .elip2,
+    .benefits_box .pic-sect .elip4,
+    .benefits_box .pic-sect .elip6,
+    .benefits_box .pic-sect .elip8 {
+        width: 60px;
+    }
+
+    .pic-sect .elip4 {
+        right: 50px;
+    }
+
+    .benefits_box .text-sect p {
+        height: 70px;
+    }
+
+    #form-help .title {
+        line-height: initial;
+    }
+
+    #form-help {
+        padding: 40px 60px 40px 80px;
+    }
+
+    #form-help input[type="text"],
+    #form-help input[type="tel"] {
+        height: 50px;
+    }
+
+    #form-help .violetbtn {
+        max-width: 100%;
+    }
+
+    #form-help .title {
         margin-bottom: 15px;
     }
 
-    .footer__adress ul li:nth-child(3):before {
-        top: 4px;
-    }
-
-    .footer__contact .title {
-        font-size: 18px;
-        margin: 0 0 15px 0;
-    }
-
-    .footer-form__inpfield input,
-    .footer-form__inpfield textarea {
-        font-size: 16px;
-    }
-
-    .footer-form__inpfield input::-webkit-input-placeholder,
-    .footer-form__inpfield textarea::-webkit-input-placeholder {
-        font-size: 16px;
-    }
-
-    .footer-form__inpfield input::-moz-placeholder,
-    .footer-form__inpfield textarea::-moz-placeholder {
-        font-size: 16px;
-    }
-
-    .footer-form__inpfield input:-ms-input-placeholder,
-    .footer-form__inpfield textarea:-ms-input-placeholder {
-        font-size: 16px;
-    }
-
-    .footer-form__inpfield input:-moz-placeholder,
-    .footer-form__inpfield textarea:-moz-placeholder {
-        font-size: 16px;
-    }
-
-    .footer-form__inpfield input {
-        height: 42px;
-        margin-bottom: 10px;
-    }
-
-    .footer-form__inpfield textarea {
-        height: 60px;
-    }
-
-    .section.section_abus h2 {
-        margin-bottom: 20px;
-    }
-
-    .advantages {
+    #form-help input[type="submit"] {
         margin-top: 40px;
     }
 
-    .advantages h4 {
-        padding-bottom: 20px;
+    .reviews__slide .title-box .name {
+        margin: 10px 0 5px 0;
     }
 
-    .advantages__title {
-        font-size: 18px;
+    .reviews__slide .title-box .prof {
+        margin-bottom: 5px;
     }
 
-    .advantages__title {
-        margin-bottom: 15px;
+    .reviews__slide .rating {
+        margin-bottom: 10px;
     }
 
-    .advantages__box img {
-        width: 50px;
+    .reviews__slide .pic-box {
+        height: 175px;
     }
 
-    .section.section_pictext {
-        padding: 80px 0;
+    .reviews:before,
+    .sectification:after {
+        height: 200px;
     }
 
-    .section.section_pictext h2 {
-        margin-bottom: 20px;
-    }
-
-    .work-with img {
+    .footer__logo a img {
         max-width: 120px;
     }
 
-    .section.section_career-topblock {
-        padding: 60px 0 50px 0;
+    .footer__lefttext p.title {
+        font-size: 30px;
     }
 
-    .section.section_career-topblock p {
-        font-size: 18px;
+    .footer__lefttext p.title {
         margin-bottom: 40px;
     }
 
-    #career-form input[type="text"] {
-        height: 45px;
+    footer.footer .header__phone>div:hover {
+        height: 90px;
     }
 
-    #career-form input[type="submit"] {
-        top: 8px;
-        right: 8px;
+    footer.footer .header__phone {
+        margin-bottom: 50px;
     }
 
-    .career-box__text .title {
-        font-size: 18px;
-        line-height: 24px;
+    .footer__righttext .footer__maptext {
+        background-size: 13px;
+        padding-right: 24px;
     }
 
-    .career-box__text .adress {
-        font-size: 14px;
+    .footer-recive {
+        margin-top: 40px;
     }
 
-    .career-box__pic img {
-        width: 25px;
+    .footer__lefttext p.worktime img {
+        width: 13px;
     }
 
-    .career-box__pic {
-        width: 35px;
+    .pluginbox>h1::before {
+        top: 22px;
     }
 
-    .career-box__text {
-        width: calc(100% - 40px);
-    }
-
-    .career-box {
-        padding: 35px 25px 25px 25px;
-    }
-
-    .ab-job .title,
-    .job-descr__title {
-        font-size: 18px;
-    }
-
-    .section.section_careeropen {
-        padding: 60px 0 40px 0;
-    }
-
-    .ab-job ul li,
-    .jdescr-list__list li {
-        font-size: 16px;
-    }
-
-    .ab-job {
-        margin-top: 25px;
-    }
-
-    .job-descr__title,
-    .jdescr-list__title {
-        margin-bottom: 20px;
-    }
-
-    .jdescr-list__title {
-        font-size: 16px;
-        padding-bottom: 13px;
-    }
-
-    .jdescr-list__title:after {
-        height: 3px;
-        width: 50px;
-    }
-
-    .purple-point-list li:before,
-    .jdescr-list__list li:before {
-        width: 6px;
-        height: 6px;
-        top: 8.5px;
-    }
-
-    .section.section_jobdescr {
-        padding: 60px 0 5px 0;
-    }
-
-    .section.section_career-form {
-        padding: 60px 0;
-    }
-
-    .section_career-form .title {
-        font-size: 24px;
-        line-height: 34px;
-        margin: 0 0 30px 0;
-    }
-
-    #career-form-op label {
-        font-size: 14px;
-    }
-
-    #career-form-op label {
-        margin-left: 10px;
-    }
-
-    #career-form-op .form-field input,
-    #career-form-op .form-field textarea {
-        height: 42px;
-    }
-
-    #career-form-op {
-        max-width: 400px;
-    }
-
-    #career-form-op .bottom-formsect .attach-label {
-        height: 42px;
-        padding: 6px 0px;
-        margin-right: 20px;
-    }
-
-    #career-form-op .bottom-formsect .send {
-        height: 42px;
-    }
-
-    .caontact-list li,
-    .caontact-list li a {
-        font-size: 16px;
-    }
-
-    .caontact-list li:nth-child(3) {
-        background-position: 0px 1px;
-    }
-
-    .section_contact-right {
-        padding: 40px 60px 40px 60px;
-    }
-
-    #contact-formc .form-field input,
-    #contact-form .form-field textarea {
-        height: 42px;
-    }
-
-    #career-form-op label,
-    #contact-formc label {
-        font-size: 14px;
-    }
-
-    .section.section_contact,
-    .our-services {
-        padding: 60px 0 70px 0;
-    }
-
-    .section.section_contact h2 {
+    .tourssect .col-lg-4 a {
         margin-bottom: 30px;
     }
 
-    .caontact-list li {
-        margin-bottom: 35px;
+    .hottopsect {
+        min-height: calc(100vh - 105px);
     }
 
-    #contact-formc .form-field textarea {
-        height: 126px;
+    .pluginbox.pluginbox_tickets {
+        width: 90%;
+        max-width: 1115px;
     }
 
-    .our-services__box img {
-        margin-bottom: 10px;
-        height: 45px;
+    header .submenu {
+        width: 315px;
     }
 
-    .our-services__box {
+    .services-info__textbox h1 {
+        padding-left: 100px;
+    }
+
+    .services-infopics {
+        margin-left: 0;
+    }
+
+    #form-help .title.linev:before {
+        left: -170px;
+        top: 19px;
+    }
+
+    .breadcrumbs-box {
         margin-top: 20px;
     }
 
-    .our-services__box .title {
+    .breadcrumbs-box ul li:after {
+        top: 8px;
+    }
+
+    .breadcrumbs-box ul li {
+        padding-right: 16px;
+    }
+
+    .breadcrumbs-box ul li:after {
+        right: 4px;
+    }
+
+    .tourtopsect h1.hot:after {
+        background-size: 100%;
+        width: 20px;
+        height: 30px;
+    }
+
+    .tourtopsect .costnum {
+        text-align: center;
         font-size: 16px;
-        line-height: 24px;
+        line-height: 20px;
     }
 
-    .our-services {
-        background-position: center center;
+    .tour__inforow .title {
+        padding: 15px 5px 15px 10px;
+        width: 100px;
     }
 
-    .expertise-list__title {
-        font-size: 20px;
-        line-height: 24px;
-        padding-left: 65px;
+    .tour__inforow .descr {
+        padding: 15px 5px 15px 10px;
     }
 
-    .expertise-ul li {
+    .tourmain-slider .slick-slide {
+        height: 430px;
+    }
+
+    .tourmain-slider .slick-arrow {
+        width: 50px;
+        height: 50px;
+        background-size: 12px;
+    }
+
+    .tourmain-slider .slick-arrow.slick-prev {
+        right: 50px;
+    }
+
+    .tourmain-slider .slick-arrow.slick-next:before {
+        height: 75%;
+    }
+
+    .tourlitt-slider .slick-slide {
+        height: 175px;
+    }
+
+    .daynum p {
+        padding: 15px 5px;
+    }
+
+    .dayinf {
+        padding: 15px 28px 15px 36px !important;
+    }
+
+    .whitebtn {
+        text-align: center;
         font-size: 16px;
-        margin-bottom: 5px;
+        height: 50px;
     }
 
-    .expertise-list__title img {
-        height: 45px;
+    h4:before {
+        height: 1px;
+        width: 35px;
     }
 
-    .expertise-ul li::before {
-        width: 6px;
-        height: 6px;
-        top: 9px;
-        left: 65px;
-    }
-
-    .expertise-ul li {
-        padding-left: 98px;
-    }
-
-    .section.section_blog {
-        padding: 60px 0 70px 0;
-    }
-
-    .blog-box__pic-block {
-        height: 200px;
+    .tourpr-also h4 {
         margin-bottom: 10px;
     }
 
-    .blog-box__text-block .title {
-        font-size: 18px;
-        line-height: 22px;
-        margin-bottom: 5px;
+    .tour-program h3 {
+        margin-bottom: 20px;
     }
 
-    .section.section_blog h2 {
-        margin-bottom: 30px;
+    .services-info__textbox h1:before {
+        top: 21px;
     }
 
-    .blog-box__text-block {
-        padding: 0px 10px 10px 10px;
+    h1.linebefore {
+        padding-left: 100px;
     }
 
-    .blog-box__text-block .date {
-        font-size: 12px;
+    .important-news .title {
         margin-bottom: 15px;
     }
 
-    .blog-box__text-block .descr {
-        font-size: 14px;
-        line-height: 130%;
+    .important-news ul li a {
+        margin-bottom: 0;
     }
 
-    .blog-box {
-        margin-bottom: 20px;
+    .important-news ul li:before {
+        top: 9px;
     }
 
-    .opblog-pic {
+    .important-news ul li {
+        margin-bottom: 15px;
+    }
+
+    .newbox__pic {
+        height: 410px;
+    }
+
+    .new__title {
+        min-height: 120px;
+    }
+
+    .new__title {
+        max-width: 550px;
+    }
+
+    h1.linebefore {
+        margin-bottom: 30px;
+    }
+
+    .singlenew__content img {
+        margin-bottom: 30px;
+    }
+
+    .singlenew__nav ul li:nth-child(1):after {
+        top: -6px;
+    }
+
+    .singlenew__nav {
+        margin-top: 40px;
+    }
+
+    .error__box {
+        width: 500px;
+        height: auto;
+        padding: 75px 35px 75px 35px;
+    }
+
+    .error__box .title {
+        margin-bottom: 50px;
+    }
+
+    .error__box .title:before {
+        left: -120px;
+        top: 19px;
+    }
+
+    .error-sect {
+        height: calc(100vh - 105px);
+    }
+
+    h1.linebefore:before {
+        top: 21px;
+    }
+
+    #map {
+        height: 500px;
+    }
+
+    .mapsect__infoblock p {
+        font-size: 16px;
+    }
+
+    .mapsect__infoblock ul li a {
+        font-size: 16px;
+    }
+
+    .mapsect__infoblock {
+        padding-left: 50px;
+    }
+
+    .mapsect__infoblock {
+        background-size: 24px;
+    }
+
+    .mapsect__infobox .mapsect__infoblock:not(:last-child) {
+        margin-bottom: 30px;
+    }
+
+    .mapsect__infobox {
         max-width: 500px;
-        margin: 0 auto 10px;
+        padding: 60px 27px 60px 60px;
     }
 
-    .section.section_opblog .date {
-        font-size: 14px;
-        margin-bottom: 10px;
+    .mapsect__infobox::before {
+        width: 100px;
+        background-color: #62487C;
+        top: 80px;
+        left: -60px;
     }
 
-    .section.section_opblog .title {
-        font-size: 22px;
-        line-height: 30px;
-        margin-bottom: 20px;
-        padding-bottom: 15px;
+    .ourteam__slider .slick-slide {
+        height: 470px;
     }
 
-    .section.section_opblog {
-        padding: 50px 0 70px 0;
-    }
-
-    .section.section_casetop {
-        height: 450px;
-    }
-
-    .section.section_casetop .title {
-        font-size: 50px;
-        line-height: 60px;
-        max-width: 580px;
-        margin: 0 auto 20px;
-    }
-
-    .section.section_casetop .descr {
-        max-width: 580px;
+    .teaminfo .proff {
         font-size: 16px;
     }
 
-    .tabs__head {
-        margin: 25px 0 35px 0;
-    }
-
-    .tabs__head ul li button {
-        height: 42px;
-        font-size: 14px;
-        padding: 0 20px;
-    }
-    .case__img {
-        overflow: hidden;
-        height: 300px;
-    }
-
-    .case__info .title {
+    .teaminfo .name {
         font-size: 18px;
-        margin-bottom: 5px;
     }
 
-    .case__info .descr {
-        font-size: 14px;
+    .teaminfo {
+        height: 135px;
     }
 
-    .case__info {
-        padding: 10px 25px;
+    .mapsect__infobox {
+        bottom: -28px;
+    }
+
+    .ourteam h3 {
+        margin-bottom: 15px;
+    }
+
+    .mainform.mainform_contact {
+        padding-bottom: 130px;
     }
 
 
 
 
 
+    /* 1600 */
+    .services-info p {
+        line-height: 140%;
+    }
 
+    .tourssect.tourssect_purple:before {
+        height: 200px;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-    .testslide-block__textblock .description {
+    /* fz */
+    .hi.header__showhov,
+    .header__address p,
+    .ha.header__showhov span,
+    .header__showmap,
+    .header__phone a.min-phone,
+    .proposition__descr .title,
+    .proposition__descr .price,
+    .violbox-text p,
+    .violbox-text ul li,
+    .benefits_box .text-sect p,
+    #form-help .descr,
+    .reviews__slide .descr-box p,
+    .reviews__slide .date,
+    .footer__lefttext p.worktime,
+    .footer__righttext .footer__address,
+    .footer__righttext .footer__maptext,
+    .footer-recive,
+    .services-info p,
+    .daynum p,
+    .dayinf p,
+    .tourpr-also ul li,
+    .newbox__text p,
+    .singlenew__content p,
+    .singlenew__nav ul li a {
         font-size: 16px;
     }
 
-    .testimonials h2.mb60 {
-        margin-bottom: 40px;
+    .header__nav ul li a,
+    .reviews__slide .title-box .prof,
+    .breadcrumbs-box ul li,
+    .breadcrumbs-box ul li a,
+    .tour__inforow .title p,
+    .tour__inforow .descr p,
+    .important-news ul li a,
+    .new__title span,
+    .singlenew__date {
+        font-size: 14px;
     }
 
-    .mb40,
-    .mb30 {
-        margin-bottom: 20px;
+
+    h3 {
+        font-size: 50px;
     }
 
+    .violbox-text p span {
+        font-size: 40px;
+    }
+
+    #form-help .title,
+    h1,
+    h4 {
+        font-size: 32px;
+    }
+
+    .header__infoname,
+    .slide-info p,
+    .important-news .title,
+    .error__box .title {
+        font-size: 28px;
+    }
+
+    .proposition__descr .price span,
+    .tourtopsect h1 {
+        font-size: 24px;
+    }
+
+    .new__title p {
+        font-size: 22px;
+    }
+
+    .tour__inforow .descr p span {
+        font-size: 20px;
+    }
+
+    .slider__scroll-to,
+    .important-news ul li span {
+        font-size: 12px;
+    }
+
+    /* mar / padd */
+    .propositions,
+    .propositions__exk,
+    .mainform__sect,
+    .tourssect,
+    .services-info {
+        padding-top: 60px;
+    }
+
+    .mainform.mainform_hot,
+    .mainform.mainform_serv,
+    .tourtopsect,
+    .singlenew {
+        padding-bottom: 60px;
+    }
+
+    .about-agency,
+    .benefits,
+    .reviews,
+    .sectification,
+    .mainform.mainform_tickets,
+    .tour-program,
+    .propositions.propositions__tour,
+    .news-section,
+    .contact-topsection,
+    .ourteam {
+        padding: 60px 0;
+    }
+
+    .propositions__hot h3,
+    .propositions__exk h3,
+    .about-agency h3 {
+        margin-bottom: 25px;
+    }
+
+    .reviews {
+        margin-top: 60px;
+    }
+
+    .violetbtn {
+        margin-top: 30px;
+    }
+
+    .violbox-text {
+        padding: 40px 80px;
+    }
 }
 
 @media(max-width:1199.8px) {
 
-    header,
-    .header__menu li,
-    .header__menu {
-        height: 50px;
+    .header__staticsect:hover .ha.header__showhov {
+        margin-top: -13px;
     }
 
-    .main-screen {
-        height: calc(100vh - 50px);
+    .slide-info {
+        width: 500px;
+        padding: 35px 60px;
     }
 
-    .header__menu li a {
-        font-size: 15px;
+    .sloderprop1 .slick-arrow.slick-next,
+    .reviews__slider .slick-arrow.slick-next,
+    .gener__slider .slick-arrow.slick-next {
+        right: -14px;
     }
 
-    .header__menu li {
-        margin-right: 16px;
+    .sloderprop1 .slick-arrow.slick-prev,
+    .reviews__slider .slick-arrow.slick-prev,
+    .gener__slider .slick-arrow.slick-prev {
+        left: -14px;
     }
 
-    .header__logo a img {
-        max-width: 90px;
+    .benefits_box .pic-sect {
+        height: 180px;
     }
 
-    .footer__contact .title {
-        font-size: 15px;
+    .benefits_box .pic-sect .elip2,
+    .benefits_box .pic-sect .elip4,
+    .benefits_box .pic-sect .elip6,
+    .benefits_box .pic-sect .elip8 {
+        width: 40px;
     }
 
-    .section_contact-right {
-        border-left: 4px solid #A11D54;
+    .benefits_box .pic-sect .elip1,
+    .benefits_box .pic-sect .elip3,
+    .benefits_box .pic-sect .elip5,
+    .benefits_box .pic-sect .elip7 {
+        width: 80px;
     }
 
-    .section_contact-right {
-        padding: 30px 40px 30px 40px;
+    .pic-sect .elip8 {
+        bottom: 35px;
     }
 
-    .blog-box__pic-block {
-        height: 160px;
+    .tourssect h3 {
+        margin-bottom: 25px;
     }
 
-    .case__img {
-        height: 200px;
+    header .submenu {
+        width: 250px;
+    }
+
+    header .submenu li a {
+        padding: 10px 10px 10px 20px;
+    }
+
+    .tourpr-also h4 {
+        line-height: normal;
+    }
+
+    .teaminfo .name {
+        font-size: 16px;
+    }
+
+    .teaminfo {
+        padding: 20px;
     }
 
 
-}
 
-@media(max-width:991.8px) {
-
-    .section.work-with,
-    .section.section_career-topblock,
-    .section.section_career,
-    .section.section_blog {
-        padding: 40px 0;
-    }
-
-    .work-with h4 {
-        margin-bottom: 40px;
-    }
-
-    .work-with img {
-        max-width: 120px;
-        width: 100%;
-    }
-
-    .work-with .row {
-        padding: 0;
-    }
-
-    header .col-lg-8 {
-        position: initial;
-    }
-
-    .header__menu {
-        display: none;
-        height: auto;
-        position: absolute;
-        top: 50px;
-        z-index: 2;
-        width: 100%;
-        background-color: #2a2a2a;
-        left: 0;
-    }
-
-    .header__menu li {
-        margin: 0;
-        display: block;
-        height: auto;
-        padding: 15px 0;
-    }
-
-    .header__menu li a {
-        display: block;
-        text-align: center;
-    }
-
-    .header__logo a img {
-        margin: 5px 0;
-    }
-
-    /* BURGER MENU */
-    .burger-menu {
-        display: inline-block;
-        position: absolute;
-        right: 15px;
-        top: 11px;
-    }
-
-    .burger-menu .menu-button {
-        position: relative;
-        display: block;
-        width: 25px;
-        height: 25px;
-    }
-
-    .burger-menu .menu-button span {
-        position: absolute;
-        top: 50%;
-        left: 0;
-    }
-
-    .burger-menu .menu-button span:before,
-    .burger-menu .menu-button span:after {
-        position: absolute;
-        content: '';
-    }
-
-    .burger-menu .menu-button span:before {
-        margin-top: -8px;
-    }
-
-    .burger-menu .menu-button span:after {
-        margin-top: 8px;
-    }
-
-    .burger-menu .menu-button span,
-    .burger-menu .menu-button span:before,
-    .burger-menu .menu-button span:after {
-        display: block;
-        width: 25px;
-        height: 2px;
-        background: white;
-        transition: all 300ms ease;
-        -webkit-transition: all 300ms ease;
-        -moz-transition: all 300ms ease;
-        -ms-transition: all 300ms ease;
-        -o-transition: all 300ms ease;
-    }
-
-    .burger-menu .menu-button--active span {
-        background-color: rgba(0, 0, 0, 0);
-    }
-
-    .burger-menu .menu-button--active span:before {
-        margin-top: 0;
-        background-color: white;
-        transform: rotate(-45deg);
-    }
-
-    .burger-menu .menu-button--active span:after {
-        margin-top: 0;
-        background-color: white;
-        transform: rotate(45deg);
-    }
-
-    .main-screen {
-        min-height: 450px;
-    }
-
-    .section.why-dattshape .row .col-md-6:first-child .icon-box,
-    .section.why-dattshape .row .col-md-6:nth-child(2) .icon-box {
-        margin-bottom: 30px;
-    }
-
-    .count-box {
-        width: 200px;
-        height: 200px;
-        border: 4px solid #A11D54;
-    }
-
-    .count-box__number {
-        font-size: 45px;
-        line-height: 55px;
-    }
-
-    .count-box__text {
+    /* fz */
+    .header__address p,
+    .ha.header__showhov span,
+    .hi.header__showhov,
+    .header__showmap {
         font-size: 14px;
     }
 
-    .count-box__number {
-        margin-top: 45px;
+    .slide-info p {
+        font-size: 24px;
+    }
+}
+
+@media(max-width:991.8px) {
+    .burgermenu {
+        display: inline-block;
     }
 
-    .section,
-    .section.why-dattshape,
-    .section.testimonials,
-    footer {
-        padding: 40px 0;
+    .burgermenu img {
+        width: 30px;
     }
 
-    .section.section_pic {
+    .header__nav ul {
+        display: none;
+    }
+
+    .header__staticsect .header__phone {
+        display: inline-block;
+        width: 49%;
+        text-align: left;
+        vertical-align: top;
+    }
+
+    .rightsoc {
+        display: inline-block;
+        vertical-align: top;
+        width: 49%;
+        text-align: left;
+        margin-top: 0;
+    }
+
+    .hi.header__showhov {
+        margin-top: 10px;
+    }
+
+    .header__logo a {
+        background-position: top -15px center;
+    }
+
+    .header__staticsect .header__phone,
+    .rightsoc {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .header__staticsect:hover .ha.header__showhov {
+        margin-bottom: 10px;
+    }
+
+    .header__staticsect:hover .header__logo a {
+        height: 115px;
+    }
+
+    .header__social {
+        margin-top: 20px;
+    }
+
+    .header__staticsect:hover {
+        height: 225px;
+    }
+
+    .header__fixsect,
+    .header__nav ul {
+        height: 45px;
+    }
+
+    .burgermenu {
+        display: flex;
+        height: 45px;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .header__fixsect>.sticky .burgermenu {
+        background-image: url(../image/logo-viol.svg);
+        background-repeat: no-repeat;
+        background-size: 100px;
+        background-position: 0px -23px;
+    }
+
+    .benefits_box {
+        margin-bottom: 30px;
+    }
+
+    .mainform__sect {
+        background-size: cover;
+    }
+
+    .mainform__sect {
+        padding-bottom: 60px;
+    }
+
+    .footer__logo a img {
+        width: 100%;
+    }
+
+    footer .header__phone,
+    footer .rightsoc {
+        display: inline-block;
+        vertical-align: top;
+        width: 49%;
+        text-align: left;
+        margin-top: 30px;
+    }
+
+    footer .header__social {
+        margin-top: 0;
+    }
+
+    footer.footer .header__phone {
+        margin-bottom: 0;
+    }
+
+    .closemenu-btn {
+        position: absolute;
+        display: inline-block;
+        right: 30px;
+        top: 30px;
+        width: 30px;
+    }
+
+    .airplane {
+        display: inline-block;
+        position: absolute;
+        bottom: 10%;
+        left: -100px;
+        width: 40px;
+        animation: air 8s linear infinite;
+        -webkit-animation: air 8s linear infinite;
+        animation-delay: 3s;
+    }
+
+
+
+    @-webkit-keyframes air {
+        0% {
+            bottom: 10%;
+            left: 0;
+        }
+
+        50% {
+            bottom: 90%;
+            left: 110%;
+        }
+
+        100% {
+            bottom: 90%;
+            left: 210%;
+        }
+    }
+
+    @keyframes air {
+        0% {
+            bottom: 10%;
+            left: 0;
+        }
+
+        50% {
+            bottom: 90%;
+            left: 100%;
+        }
+
+        100% {
+            bottom: 90%;
+            left: 210%;
+        }
+    }
+
+
+    .header__nav {
+        position: relative;
+        z-index: 9999;
+    }
+
+    /* MENU */
+    .header__nav {
+        display: none;
+    }
+
+    .header__nav .showtablet-menu {
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: 100vh;
+        z-index: 20;
+        background-color: #fff;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url(../image/logo-viol.svg);
+        background-repeat: no-repeat;
+        overflow: hidden;
+        background-position: left 20px top 20px;
+    }
+
+    .header__nav .showtablet-menu:after {
+        content: "";
+        display: block;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 0;
+        height: 0;
+        border-bottom: 300px solid #62487C;
+        border-left: 300px solid transparent;
+    }
+
+    .header__nav .showtablet-menu ul {
+        display: block;
+
+    }
+
+    .header__nav ul li a:after {
+        display: none;
+    }
+
+    .header__nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .header__nav .showtablet-menu ul {
         height: auto;
     }
 
-    .testimonials-slider {
-        width: calc(100% + 30px);
-        margin-left: -15px;
+    .header__nav ul li a {
+        font-size: 22px;
     }
 
-    .footer__logo p {
+    .scrollblock {
+        overflow: hidden;
+        width: 90%;
+    }
+
+    .pluginbox {
+        overflow: scroll;
+        padding: 30px;
+    }
+
+    .pluginbox>h1::before {
         display: none;
+    }
+
+    .header__nav .showtablet-menu ul .submenu {
+        max-width: 400px;
+        background-color: #fff;
+        position: relative;
+        padding: 10px 20px;
+        width: 100%;
+        margin: 10px;
+        display: none;
+    }
+
+    header .submenu li a {
+        padding: 0;
+    }
+
+    .header__nav ul li a:hover+ul.submenu,
+    ul.submenu:hover {
+        display: none;
+    }
+
+    .header__nav .showtablet-menu ul .submenu {
+        width: 305px;
+    }
+
+    .scrmenu {
+        padding: 30px 0;
+        overflow: scroll;
+        max-height: 100vh;
+    }
+
+    #form-help .title.linev:before,
+    .services-info__textbox h1:before,
+    .slide-info:before {
+        display: none;
+    }
+
+    .services-info__textbox h1 {
+        padding-left: 0;
+    }
+
+    .tourtopsect .costnum {
+        height: 50px;
+        max-width: 300px;
+    }
+
+    .tourtopsect h1 {
+        margin-bottom: 20px;
+    }
+
+    .tour-slider .col-xl-2.col-lg-2 {
+        display: none;
+    }
+
+    .whitebtn {
+        max-width: 350px;
+    }
+
+    .tour-program .whitebtn {
+        margin: 0 auto;
+    }
+
+    .tour-program .violetbtn {
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .important-news {
+        margin-top: 40px;
+    }
+
+    h1.linebefore {
+        padding-left: 0;
+    }
+
+    h1.linebefore:before {
+        display: none;
+    }
+
+    .error-sect {
+        min-height: calc(100vh - 404px);
+        height: auto;
+        padding: 30px 0;
+    }
+
+    .mapsect__infobox {
+        position: relative;
+        max-width: 100%;
+        bottom: 0;
+        margin-top: 30px;
+    }
+
+
+    /* 991  */
+}
+
+@media(max-width:767.8px) {
+    .header__staticsect {
+        display: none;
+    }
+
+    .header__fixsect {
+        background-color: #62487C;
+        height: 55px;
+    }
+
+    .burgermenu {
+        height: 55px;
+    }
+
+    .header__fixsect>.sticky .burgermenu,
+    .header__fixsect .burgermenu {
+        background-image: url(../image/logo.svg);
+        background-repeat: no-repeat;
+        background-size: 100px;
+        background-position: 0px -23px;
+    }
+
+    .burgermenu img {
+        display: none;
+    }
+
+    .burgermenu img.phone-burger {
+        display: inline-block;
+    }
+
+    .mainslider,
+    .slider-for__slide {
+        height: 500px;
+    }
+
+    h3 {
+        line-height: 1;
+    }
+
+    .benefits_box .text-sect p {
+        font-size: 20px;
+    }
+
+    .benefits_box .text-sect p {
+        height: auto;
+    }
+
+    .benefits_box {
+        padding-bottom: 40px;
+    }
+
+    .mainform__sect {
+        background-image: none;
+        padding: 0 !important;
     }
 
     .footer__logo {
         text-align: center;
-        margin-bottom: 30px;
-    }
-
-    .tablet-priv {
-        display: block;
-        margin: 30px 0 0 0;
-        text-align: center;
-        color: #838383;
-        font-size: 16px;
-        line-height: 140%;
-    }
-
-    .section.section_careeropen,
-    .section.section_career-form {
-        padding: 40px 0;
-    }
-
-    .section.section_jobdescr {
-        padding-top: 40px;
-    }
-
-    .caontact-list li {
-        display: inline-block;
-        vertical-align: top;
-        /* width: 32%; */
-    }
-
-    .caontact-list {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .caontact-list li {
-        margin-bottom: 25px;
-    }
-
-    .section_contact-right .inp-sect {
-        width: 47%;
-    }
-
-    .section_contact-right .text-sect {
-        width: 47%;
-    }
-
-    .our-services .col {
-        -ms-flex: 0 0 33.333333%;
-        flex: 0 0 33.333333%;
-        max-width: 33.333333%;
-    }
-
-    .our-services .row {
-        justify-content: center;
-    }
-
-    .expertise-ul {
-        margin-bottom: 40px;
-    }
-
-    .our-services .col {
-        -ms-flex: 0 0 50%;
-        flex: 0 0 50%;
-        max-width: 50%;
-    }
-
-    .our-services__box .title {
-        font-size: 14px;
-        line-height: 22px;
-    }
-
-    .expertise-list__title {
-        font-size: 18px;
-        line-height: 22px;
-        padding-left: 65px;
-    }
-
-    .expertise-list__title img {
-        height: 35px;
-    }
-
-    .expertise-list__title {
-        padding-left: 45px;
-    }
-
-    .expertise-ul li {
-        padding-left: 70px;
-    }
-
-    .expertise-ul li::before {
-        left: 45px;
-    }
-
-    .section.section_opblog,
-    .section.section_casetext {
-        padding: 40px 0;
-    }
-
-    .section.case-studies {
-        padding: 40px 0;
-    }
-
-    .case-open-list {
-        padding-bottom: 20px;
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    .section.section_contact,
-    .section.section_expertise,
-    .section.section_contact,
-    .our-services,
-    .section.section_expertise-lists {
-        padding: 40px 0 40px 0;
-    }
-}
-
-@media(max-width:767.8px) {
-    #career-form-op .bottom-formsect .attach-label {
-        width: 200px;
-    }
-
-    .advantages__title {
-        font-size: 16px;
-        margin-bottom: 10px;
-    }
-
-    .advantages__box-pic {
-        width: 60px;
-    }
-
-    .advantages__box-text {
-        width: calc(100% - 65px);
-    }
-
-    .section.section_pictext {
-        padding: 50px 0;
-    }
-
-    .section.section_pictext.section_adus-pictext h4 {
-        font-size: 18px;
-        line-height: 28px;
-    }
-
-    .header__menu li:before {
-        height: 3px;
-    }
-
-    .header__menu li {
-        padding: 10px 0;
-    }
-
-    .main-screen__title {
-        font-size: 60px;
-        line-height: 70px;
-    }
-
-    .main-screen__subtitle {
-        font-size: 16px;
-        margin: 20px 0 0 0;
-    }
-
-    h2 {
-        font-size: 28px;
-        line-height: 38px;
-    }
-
-    .why-dattshape h4 {
-        margin-bottom: 30px;
-    }
-
-    .section.why-dattshape .icon-box,
-    .section.why-dattshape .icon-box {
-        margin-bottom: 30px;
-    }
-
-    .icon-box__img {
-        margin-bottom: 10px;
-    }
-
-    .icon-box .general-text {
-        margin-top: 0;
-    }
-
-    .icon-box__title {
-        margin-bottom: 10px;
-    }
-
-    .count-box {
-        width: 175px;
-        height: 175px;
-    }
-
-    .count-box__text:before {
-        width: 100%;
-    }
-
-    .count-box__text {
-        max-width: 105px;
-        margin: 0 auto;
-        padding-top: 7px;
-    }
-
-    .count-box__number {
-        font-size: 38px;
-        line-height: 48px;
-    }
-
-    .testimonials-slider .slick-slide {
-        padding-bottom: 0;
-    }
-
-    .testimonials h2.mb60 {
-        margin-bottom: 25px;
-    }
-
-    .footer__contact {
-        margin-top: 30px;
-    }
-
-    .tablet-priv {
-        font-size: 14px;
-    }
-
-    .section.why-dattshape .row .col-md-6:last-child .icon-box {
-        margin-bottom: 0;
-    }
-
-    .caontact-list li {
-        padding-left: 30px;
-    }
-
-    .section_contact-right .inp-sect {
-        margin-right: 0;
-        width: 100%;
-    }
-
-    .section_contact-right .text-sect {
-        width: 100%;
-    }
-
-    .recapcha {
-        margin-top: 0;
-    }
-
-    #contact-formc .bottom-sectform input {
-        height: 42px;
-        width: 180px;
-        font-size: 16px;
-    }
-
-    .section.section_blog h2 {
         margin-bottom: 20px;
     }
 
-    .blog-box {
-        margin-bottom: 30px;
+    .footer__lefttext p.title {
+        text-align: center;
+        font-size: 40px;
+        margin-bottom: 20px;
     }
 
-    .bottom-sect-opblog {
+    .footer__lefttext p.worktime {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .footer__righttext .footer__address {
+        text-align: center;
+    }
+
+    .footer__righttext .footer__maptext {
+        margin: 0 auto;
+        display: block;
+        width: 165px;
+    }
+
+    .reviews {
         margin-top: 40px;
     }
 
-    .bottom-sect-opblog .text-right {
-        text-align: left;
+    .header__nav ul li a {
+        font-size: 18px;
     }
 
-    .back-link {
-        margin-bottom: 20px;
-        display: inline-block;
+    .closemenu-btn {
+        right: 24px;
+        top: 24px;
+        width: 24px;
     }
 
-    .section.section_casetop {
-        height: 350px;
-        padding: 100px 0 0 0;
+    .mainform.mainform_hot form {
+        margin-top: 40px;
     }
 
-    .section.section_casetop .title {
-        font-size: 34px;
-        line-height: 44px;
-        max-width: 95%;
+    .tourssect.tourssect_purple {
+        padding-bottom: 10px;
     }
 
-    .tabs__head ul li {
-        margin-right: 10px;
+    .mainform.mainform_tickets .mainform__sect {
+        background-image: none;
     }
 
-    .tabs__head ul li button {
-        height: 42px;
-        font-size: 13px;
-        padding: 0 10px;
+    .mainform.mainform_serv .mainform__sect.form-section {
+        background-image: none;
     }
 
-    .case-visit-link {
-        margin-top: 15px;
-        height: 42px;
-        width: 175px;
+    .tourtopsect h1.hot:after {
+        position: absolute;
+        right: 15px;
+        top: 0;
     }
 
-    .case-open-list li {
-        font-size: 16px;
+    .tourmain-slider {
+        margin-top: 40px;
+    }
+
+    .newbox a .newbox__pic .new__title {
+        border-radius: 50px 0 0 0;
+        -webkit-border-radius: 50px 0 0 0;
+        -moz-border-radius: 50px 0 0 0;
+        -ms-border-radius: 50px 0 0 0;
+        -o-border-radius: 50px 0 0 0;
+    }
+
+    .slider__scroll-to,
+    .slick-active .animate-line,
+    .slide-info:before,
+    .pagingInfo-slider,
+    h3:before {
+        display: none;
+    }
+
+    .teamslide>img {
+        object-position: 50% 0;
+    }
+
+    .mainform.mainform_contact .mainform__sect {
+        background-image: none;
+    }
+
+
+
+
+
+
+    /* - 767*/
+    .propositions,
+    .propositions__exk,
+    .mainform__sect,
+    .tourssect,
+    .services-info {
+        padding-top: 40px;
+    }
+
+    .about-agency,
+    .benefits,
+    .reviews,
+    .sectification,
+    .mainform.mainform_tickets,
+    .propositions.propositions__tour,
+    .tour-program,
+    .news-section,
+    .singlenew,
+    .contact-topsection,
+    .ourteam {
+        padding: 40px 0;
+    }
+
+    .tourtopsect {
+        padding-bottom: 40px;
     }
 }
 
 @media(max-width:575.8px) {
-    .section.work-with .col {
-        width: 200px;
-        display: inline-block;
-        min-width: 100px;
+
+    .header__fixsect,
+    .burgermenu {
+        height: 50px;
     }
 
-    .work-with img {
-        margin-bottom: 10px;
+    .slide-info {
+        max-width: 90%;
+        padding: 20px;
     }
 
-    .section.section_pictext.section_adus-pictext h4 {
+    .slide-info a {
+        max-width: 100%;
         font-size: 14px;
-        line-height: 24px;
     }
 
-    .section.section_pictext {
-        padding: 40px 0;
+    .sloderprop1 .slick-arrow.slick-next,
+    .reviews__slider .slick-arrow.slick-next,
+    .gener__slider .slick-arrow.slick-next {
+        right: 0;
     }
 
-    .advantages h4 {
-        margin-bottom: 30px;
+    .sloderprop1 .slick-arrow.slick-prev,
+    .reviews__slider .slick-arrow.slick-prev,
+    .gener__slider .slick-arrow.slick-prev {
+        left: 0;
     }
 
-    .advantages h4 {
-        padding-bottom: 10px;
+    .about-agency {
+        background-position: top right;
+        background-size: 100% auto;
     }
 
-    .header__menu {
-        padding-bottom: 20px;
+    .violbox-text {
+        padding: 40px 20px 40px 50px;
     }
 
-    .main-screen__title {
-        font-size: 42px;
-        line-height: 52px;
+    .benefits_box .pic-sect>img:first-child {
+        max-width: 100px;
+        max-height: 100px;
     }
 
-    .main-screen__subtitle {
+    .violbox-text,
+    #form-help {
+        border-radius: 40px 0 40px 0;
+        -webkit-border-radius: 40px 0 40px 0;
+        -moz-border-radius: 40px 0 40px 0;
+        -ms-border-radius: 40px 0 40px 0;
+        -o-border-radius: 40px 0 40px 0;
+    }
+
+    footer .header__phone,
+    footer .rightsoc {
+        width: 100%;
+    }
+
+    #form-help {
+        padding: 40px 20px 40px 40px;
+    }
+
+
+    #form-help input::-webkit-input-placeholder {
         font-size: 16px;
-        line-height: 26px;
     }
 
-    .main-screen__titles {
-        padding: 0 15px;
+    #form-help input::-moz-placeholder {
+        font-size: 16px;
     }
 
-    h2 {
-        font-size: 24px;
-        line-height: 34px;
+    #form-help input:-ms-input-placeholder {
+        font-size: 16px;
     }
 
-    p.general-text,
-    .testslide-block__textblock .description {
-        font-size: 14px;
+    #form-help input:-moz-placeholder {
+        font-size: 16px;
     }
 
-    h4 {
-        font-size: 18px;
-        line-height: 28px;
-    }
-
-    .icon-box__title {
-        font-size: 14px;
-        margin-bottom: 0;
-    }
-
-    .count-box {
-        margin-bottom: 20px;
-    }
-
-    .section.section_pic.section_main-pic .row .col-md-4:last-child .count-box {
-        margin-bottom: 0;
-    }
-
-    .footer__nav {
-        text-align: center;
-        margin-bottom: 40px;
-    }
-
-    .footer__adress {
-        max-width: 180px;
-        margin: 0 auto;
-    }
-
-    .footer__contact .title {
-        text-align: center;
-    }
-
-    .footer-form__submit {
-        width: 180px;
-        margin: 0 auto;
-        display: block;
-    }
-
-    .ab-job .title,
-    .job-descr__title {
-        font-size: 15px;
-    }
-
-    .ab-job {
+    #form-help input[type="submit"] {
+        white-space: initial;
         margin-top: 20px;
     }
 
-    .ab-job .title {
-        margin-bottom: 10px;
+    footer .header__phone,
+    footer .rightsoc {
+        text-align: center;
     }
 
-    .ab-job {
-        padding-bottom: 20px;
+    footer .rightsoc {
+        margin-top: 35px;
     }
 
-    .ab-job ul li span {
-        width: 145px;
+    .header__nav .showtablet-menu {
+        background-size: 100px;
     }
 
-    .ab-job ul li,
-    .jdescr-list__list li {
-        font-size: 14px;
+    .header__nav .showtablet-menu:after {
+        border-bottom: 100px solid #62487C;
     }
 
-    .ab-job ul li {
+    .header__nav ul li {
         margin-bottom: 5px;
     }
 
-    .section.section_careeropen {
-        padding-bottom: 20px;
-    }
-
-    .caontact-list {
-        display: block;
-    }
-
-    .caontact-list li {
-        width: 100%;
-    }
-
-    .section.section_contact h2,
-    .caontact-list li {
-        margin-bottom: 20px;
-    }
-
-    .section_contact-right {
-        padding: 25px;
-    }
-
-    .soc-list li a img {
-        width: 15px;
-    }
-
-    .soc-list li a {
-        width: 40px;
-        height: 40px;
-    }
-
-    .back-link {
+    .header__nav ul li a {
         font-size: 16px;
     }
 
-    .section.section_casetop .title {
-        font-size: 22px;
-        line-height: 29px;
+    .mainslider,
+    .slider-for__slide {
+        min-height: calc(100vh - 50px);
     }
 
-    .section.section_casetop .descr {
+    .header__nav .showtablet-menu ul .submenu {
+        width: auto;
+        max-width: 200px;
+    }
+
+    .header__nav .showtablet-menu {
+        background-position: left 10px top 10px;
+        background-size: 60px !important;
+    }
+
+    .loadfile-box {
+        margin-top: 20px;
+    }
+
+    .tourpr-also ul {
+        margin-bottom: 30px;
+    }
+
+    .tour-program {
+        padding-bottom: 10px;
+    }
+
+    h1.linebefore {
+        margin-bottom: 20px;
+    }
+
+    .newbox__pic {
+        height: 300px;
+    }
+
+    .new__title p {
+        font-size: 18px;
+    }
+
+    .new__title span {
+        font-size: 12px;
+    }
+
+    .new__title span {
+        margin-bottom: 0;
+    }
+
+    .new__title {
+        min-height: initial;
+    }
+
+    .new__title {
+        padding: 15px 15px 15px 30px;
+    }
+
+    .newbox__text {
+        padding: 15px;
+    }
+
+    .newbox {
+        margin-bottom: 30px;
+    }
+
+    .pagination-block ul li a:not(.pagprev):not(.pagnext) {
+        font-size: 16px;
+        width: 25px;
+        height: 25px;
+    }
+
+    .pagination-block ul li a.pagprev,
+    .pagination-block ul li a.pagnext {
         font-size: 14px;
-        padding: 0 15px;
     }
 
-    .section.section_casetop {
-        height: 200px;
+    .pagination-block ul li {
+        margin: 0 2px;
     }
 
-    .section.section_casetop {
-        padding-top: 35px;
+    .footer__lefttext p.title {
+        font-size: 30px;
     }
 
-    .tabs__head ul li {
-        display: block;
-        margin: 0;
+    .singlenew__nav ul li {
+        padding: 0 10px;
     }
 
-    .tabs__head ul li button {
-        border: 1px solid #A11D54;
-        margin-bottom: 5px;
+    .error__box .title {
+        font-size: 22px;
+    }
+
+    .error__box {
+        max-width: 90%;
+        padding: 40px 25px 40px 25px;
+        border-radius: 40px 0 40px 0;
+        -webkit-border-radius: 40px 0 40px 0;
+        -moz-border-radius: 40px 0 40px 0;
+        -ms-border-radius: 40px 0 40px 0;
+        -o-border-radius: 40px 0 40px 0;
+    }
+
+    .error-sect {
+        min-height: calc(100vh - 250px);
+    }
+
+    .error__box .title:before {
+        display: none;
+    }
+
+    #map {
+        height: 400px;
+    }
+
+    .mapsect__infobox::before {
+        display: none;
+    }
+
+    .mapsect__infobox {
+        border-radius: 40px 0 40px 0;
+        -webkit-border-radius: 40px 0 40px 0;
+        -moz-border-radius: 40px 0 40px 0;
+        -ms-border-radius: 40px 0 40px 0;
+        -o-border-radius: 40px 0 40px 0;
+    }
+
+    .mapsect__infobox {
+        padding: 35px 20px 35px 20px;
+    }
+
+
+    /* fz 575 */
+    #form-help .title {
+        font-size: 28px;
+    }
+
+    .slide-info p {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 40px;
+    }
+}
+
+@media(max-width:360.8px) {
+
+    .mainslider,
+    .slider-for__slide {
+        min-height: 400px;
+        height: calc(100vh - 50px);
+    }
+
+    .slider-nav__slide {
+        height: 90px;
+    }
+
+    .slide-info a img {
+        display: none;
+    }
+
+    .wrapper-slidenav .slick-arrow {
+        width: 50px;
+    }
+
+    .slider-nav {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .propositions-box {
+        height: 400px;
+    }
+
+    .proposition__mark {
+        width: 40px;
+        height: 60px;
+        background-position: top -2px center;
+    }
+
+    .sloderprop1 .slick-arrow,
+    .reviews__slider .slick-arrow,
+    .gener__slider .slick-arrow {
+        width: 50px;
+        height: 100px;
+    }
+
+    .violbox-text {
+        padding: 20px 20px 20px 30px;
+    }
+
+    .benefits_box .text-sect p {
+        font-size: 16px;
+    }
+
+    .benefits_box .pic-sect {
+        height: 150px;
+    }
+
+    .benefits_box {
+        padding-bottom: 20px;
+    }
+
+    #form-help {
+        padding: 30px 20px 40px 30px;
+    }
+
+    #form-help input[type="text"],
+    #form-help input[type="tel"] {
+        height: 42px;
+        font-size: 16px;
+    }
+
+    .pluginbox.pluginbox_tickets,
+    .scrollblock,
+    .pluginbox {
         width: 100%;
     }
 
-    .tabs__head {
-        margin: 20px 0 25px 0;
+    .pluginbox {
+        padding: 30px 20px;
     }
 
+    #form-help input::-webkit-input-placeholder {
+        font-size: 14px;
+        letter-spacing: 0;
+    }
 
+    #form-help input::-moz-placeholder {
+        font-size: 14px;
+        letter-spacing: 0;
+    }
 
-}
+    #form-help input:-ms-input-placeholder {
+        font-size: 14px;
+        letter-spacing: 0;
+    }
 
-@media(max-width:373.8px) {
-    #career-form-op .bottom-formsect .attach-label {
+    #form-help input:-moz-placeholder {
+        font-size: 14px;
+        letter-spacing: 0;
+    }
+
+    .tourtopsect {
+        padding-top: 20px;
+    }
+
+    .daynum {
+        width: 100%;
+    }
+
+    .daynum p {
+        line-height: normal;
+        padding: 15px;
+        min-height: initial;
+    }
+
+    .dayinf {
+        padding: 10px 15px 10px 15px !important;
+    }
+
+    .propositions.propositions__tour {
+        padding-bottom: 20px;
+    }
+
+    .pagination-block ul li {
+        height: 25px;
+    }
+
+    .pagination-block ul li a.pagprev,
+    .pagination-block ul li a.pagnext {
+        width: 25px;
+        height: 25px;
+        overflow: hidden;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        -o-user-select: none;
+        -webkit-user-select: none;
+        color: transparent;
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 12px;
+    }
+
+    .pagination-block ul li a.pagprev:focus,
+    .pagination-block ul li a.pagnext:focus,
+    .pagination-block ul li a.pagprev:hover,
+    .pagination-block ul li a.pagnext:hover {
+        color: transparent !important;
+    }
+
+    .pagination-block ul li a.pagprev {
+        background-image: url(../image/icons/arrow-left.svg);
+    }
+
+    .pagination-block ul li a.pagnext {
+        background-image: url(../image/icons/arrow-right.svg);
+    }
+
+    .singlenew__nav ul li:nth-child(1):after {
+        display: none;
+    }
+
+    .singlenew__nav ul li:first-child {
         margin-bottom: 10px;
     }
 
+    .ourteam__slider .slick-slide {
+        height: 375px;
+    }
+
+    /* fz */
+    .violetbtn,
+    .violbox-text ul li,
+    .violbox-text p,
+    #form-help .descr,
+    .reviews__slide .descr-box p {
+        font-size: 14px;
+    }
+
+    #form-help .title {
+        font-size: 26px;
+    }
 }
 
-@media(max-width:350px) {
-    .main-screen__title {
-        font-size: 34px;
-        line-height: 44px;
+
+
+/* height resp */
+@media(max-height: 1081px) and (min-width:1024px) {
+    .error__box {
+        height: auto;
+    }
+
+    .error__box .title {
+        margin-bottom: 100px;
+    }
+}
+
+@media(max-height: 960px) and (min-width:1024px) {
+    .error__box {
+        padding: 80px 55px 70px 55px;
+    }
+
+    .error__box .title {
+        margin-bottom: 60px;
+    }
+
+    .error__box .title:before {
+        width: 100px;
     }
 }
